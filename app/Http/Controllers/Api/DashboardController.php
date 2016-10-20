@@ -22,7 +22,7 @@ class DashboardController extends ApiController {
      * @return \Illuminate\Http\JsonResponse
      *
      * @SWG\Get(
-     *     path="/api/dashboard",
+     *     path="/api/demo",
      *     description="Returns dashboard overview.",
      *     operationId="api.dashboard.index",
      *     produces={"application/json"},

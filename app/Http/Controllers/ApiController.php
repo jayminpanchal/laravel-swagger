@@ -15,7 +15,7 @@ namespace App\Http\Controllers;
  *
  * @SWG\Swagger(
  *     basePath="",
- *     host="laravel-swagger",
+ *     host="localhost/laravel-swagger/public",
  *     schemes={"http"},
  *     @SWG\Info(
  *         version="1.0",

@@ -1,0 +1,58 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Sample API",
+        "contact": {
+            "name": "Jaymin Panchal",
+            "email": "jayminpanchal10@gmail.com"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost/laravel-swagger/public",
+    "basePath": "",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/api/demo": {
+            "get": {
+                "tags": [
+                    "dashboard"
+                ],
+                "summary": "Display a listing of the resource.",
+                "description": "Returns dashboard overview.",
+                "operationId": "api.dashboard.index",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Dashboard overview."
+                    },
+                    "401": {
+                        "description": "Unauthorized action."
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Error": {
+            "required": [
+                "code",
+                "message"
+            ],
+            "properties": {
+                "code": {
+                    "description": "Class ApiController",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "description": "Class ApiController",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
