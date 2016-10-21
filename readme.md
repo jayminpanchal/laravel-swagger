@@ -1,6 +1,8 @@
 # Laravel Swagger UI Demo
 
-A demo of swagger API exlorer with laravel. Reference from: https://www.marcoraddatz.com/en/2015/07/21/integrate-swagger-into-laravel/
+A demo of swagger API exlorer with laravel. 
+
+Reference from: https://www.marcoraddatz.com/en/2015/07/21/integrate-swagger-into-laravel/
 
 To run this Project
 
@@ -14,3 +16,4 @@ Run this from your project directory
 
 ./vendor/bin/swagger app/Http --output public/api/
 
+For more info about swagger annotation check it here: https://github.com/zircote/swagger-php
